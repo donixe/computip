@@ -1,1 +1,1 @@
-## computip.com repostories
+## computip.com repository
