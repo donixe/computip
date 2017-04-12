@@ -1,0 +1,20 @@
+.dc_labels {
+    border-bottom: 1px solid #DFDFDF;
+}
+@media only screen and (min-width:480px) {
+.dc_labels, .dc_date {
+    position: absolute;
+    left: 140px;
+    width: 100%;
+    background: #fff;
+    padding-bottom: 3px;
+}
+
+.dc_labels {
+    bottom: 0;
+    border-bottom: 1px solid #DFDFDF;
+}
+
+.dc_date {
+	bottom: 23px;
+}
