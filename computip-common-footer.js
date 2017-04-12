@@ -5,5 +5,8 @@ jQuery(document).ready(function($) {
 		$(this).attr('rel','nofollow')
 			.attr('target', '_blank');
 	});
-
+	var e_br = $('article .post-body>br');
+	e_br.eq(5).after(function() {
+		return '<input type="hidden" name="IL_IN_ARTICLE">';
+	});
 });
